@@ -22,11 +22,11 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run lint check
-      run: npm run lint
+    - name: Lint with ESLint
+      run: npx eslint .
 
-    - name: Run unit tests
-      run: npm test
+    - name: Run unit tests with Jest
+      run: npx jest
 
     - name: Build application
       run: npm run build

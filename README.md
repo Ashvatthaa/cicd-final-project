@@ -1,4 +1,4 @@
-# cicd-final-project
+# ci-cd-final-project
 
 
 This repository contains the final project for the CI/CD, DevOps, and OpenShift pipeline course. It demonstrates automated linting, unit testing, containerization, and continuous deployment pipelines using GitHub Actions and Tekton.
